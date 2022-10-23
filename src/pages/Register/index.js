@@ -24,12 +24,18 @@ const Register = () => {
           <FloatingLabel controlId="floatingPassword" label="Password">
                 <Form.Control type="password" placeholder="Password"  />
               </FloatingLabel>
-              <Link to={"/login"} className="btn button-login shadow btn-lg me-2 mt-3">
+              <Link to={"/"} className="btn button-login shadow btn-lg me-2 mt-3">
                 Login
               </Link>
-              <Link to={"/register"} className="btn button-register shadow btn-lg ms-1 mt-3">
+              <Link to={"/"} className="btn button-register shadow btn-lg ms-1 mt-3">
                 Register
               </Link>
+          <footer className='mt-5'>
+          <p>
+        By signing up, you agree to Book's <br />
+        <strong>Terms and Conditions</strong> & <strong>Privacy Policy</strong>
+       </p>
+    </footer>
       </form>
       </Auth>
 }
