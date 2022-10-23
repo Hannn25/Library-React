@@ -1,0 +1,26 @@
+.login h1{
+    color: black;
+    font-size: 64px;
+    line-height: 83px;
+}
+.login p{
+    font-size: 17px;
+    line-height: 22px;
+}
+.aggrement span{
+    text-align: center;
+    color: grey;
+}
+.aggrement p {
+    width: 327px;
+    height: 63px;
+    color: black;
+}
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    display: flex;
+    justify-content: center;
+}

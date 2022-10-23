@@ -1,0 +1,15 @@
+.register h2 {
+    font-size: 900px;
+    line-height: 83px;
+    color: #424242;
+}
+
+#floating-input {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+.floating-label{
+    position: absolute;
+}
