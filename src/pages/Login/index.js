@@ -62,7 +62,7 @@ const Login = () => {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Link to={"/"} className="btn button-login shadow btn-lg me-2 mt-3" onClick={(e) => checkUser(e)}>
+      <Link to={"/"} className="btn button-login shadow btn-md" onClick={(e) => checkUser(e)}>
         Login
        </Link>
       <Link to={"/register"} className="btn button-register shadow btn-md" variant="primary">
