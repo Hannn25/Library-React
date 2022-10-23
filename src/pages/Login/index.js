@@ -19,7 +19,6 @@ const Login = () => {
     e.preventDefault();
     setPassword(e.target.value);
   };
- // eslint-disable-next-line
   const checkUser = (e) => {
     e.preventDefault();
     if (username === "rebecca@gmail.com") {
@@ -63,9 +62,9 @@ const Login = () => {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Link to={"/"} className="btn button-register shadow btn-md" variant="primary">
+      <Link to={"/"} className="btn button-login shadow btn-lg me-2 mt-3" onClick={(e) => checkUser(e)}>
         Login
-      </Link>
+       </Link>
       <Link to={"/register"} className="btn button-register shadow btn-md" variant="primary">
         Sign Up
       </Link>
