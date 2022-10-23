@@ -1,5 +1,4 @@
- // eslint-disable-next-line
-import React, { useState } from 'react'
+import React {useState }from 'react'
 import '../../styles/Profile.css'
 import niki from '../../assets/niki.png'
 const Profile = () => {

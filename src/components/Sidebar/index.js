@@ -7,8 +7,8 @@ import Sidenav from '../Sidenav';
 const Sidebar = ({children}) => {
     const[isOpen ,setIsOpen] = useState(false);
     const toggle = () => setIsOpen (!isOpen);
-     // eslint-disable-next-line
     const menuItem=[
+    // eslint-disable-next-line
         
     ]
     return (

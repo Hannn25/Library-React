@@ -19,7 +19,6 @@ const Login = () => {
     e.preventDefault();
     setPassword(e.target.value);
   };
-
   const checkUser = (e) => {
     e.preventDefault();
     if (username === "rebecca@gmail.com") {

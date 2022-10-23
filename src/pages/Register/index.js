@@ -1,5 +1,4 @@
 import React from 'react'
-import Login from '../Login'
 import { Link } from "react-router-dom";
 import Auth from '../../layouts/Auth'
 import {Form, FloatingLabel} from 'react-bootstrap'
@@ -25,18 +24,27 @@ const Register = () => {
           <FloatingLabel controlId="floatingPassword" label="Password">
                 <Form.Control type="password" placeholder="Password"  />
               </FloatingLabel>
-              <Link to={"/login"} className="btn button-login shadow btn-lg me-2 mt-3">
+              <Link to={"/"} className="btn button-login shadow btn-lg me-2 mt-3">
                 Login
               </Link>
               <Link to={"/"} className="btn button-register shadow btn-lg ms-1 mt-3">
                 Register
               </Link>
+<<<<<<< HEAD
               <footer className='mt-5'>
                 <p>
                 By signing up, you agree to Book's <br />
               <strong>Terms and Conditions</strong> & <strong>Privacy Policy</strong>
                 </p>
             </footer>
+=======
+          <footer className='mt-5'>
+          <p>
+        By signing up, you agree to Book's <br />
+        <strong>Terms and Conditions</strong> & <strong>Privacy Policy</strong>
+       </p>
+    </footer>
+>>>>>>> 1618a7faaa23c01cf22d8efd388e55ac5fe09b3a
       </form>
       </Auth>
 }
