@@ -25,7 +25,7 @@ const Login = () => {
     if (username === "rebecca@gmail.com") {
       if (password === "123") {
         alert("Login Success!");
-        window.location.replace("/");
+        window.location.replace("/home");
       } else {
         alert("Please check your password again!");
       }
