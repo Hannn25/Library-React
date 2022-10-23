@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import Auth from '../../layouts/Auth'
-import {Form, Button} from 'react-bootstrap'
+import {Form} from 'react-bootstrap'
 import '../../styles/Login.css'
 import bookshelf from '../../assets/bookshelf.png'
 
@@ -22,10 +22,10 @@ const Login = () => {
 
   const checkUser = (e) => {
     e.preventDefault();
-    if (username === "user123") {
-      if (password === "user123") {
+    if (username === "rebecca@gmail.com") {
+      if (password === "123") {
         alert("Login Success!");
-        window.location.replace("/");
+        window.location.replace("/home");
       } else {
         alert("Please check your password again!");
       }
@@ -63,9 +63,9 @@ const Login = () => {
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button variant="dark" type="submit" onClick={(e) => checkUser(e)}>
+      <Link to={"/home"} className="btn button-login shadow btn-md" onClick={(e) => checkUser(e)}>
         Login
-      </Button>
+       </Link>
       <Link to={"/register"} className="btn button-register shadow btn-md" variant="primary">
         Sign Up
       </Link>
