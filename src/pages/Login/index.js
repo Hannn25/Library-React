@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import Auth from '../../layouts/Auth'
-import {Form, Button, FormFloating} from 'react-bootstrap'
+import {Form, Button} from 'react-bootstrap'
 import '../../styles/Login.css'
 import bookshelf from '../../assets/bookshelf.png'
 

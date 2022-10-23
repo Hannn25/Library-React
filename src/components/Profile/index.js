@@ -3,9 +3,8 @@ import '../../styles/Profile.css'
 import niki from '../../assets/niki.png'
 const Profile = () => {
   function confirmAction() {
-    let confirmAction = confirm("Exit to Homepage?");
     if (confirmAction) {
-      window.location.replace('/login')
+      window.location.replace('/')
     } 
   }
   
