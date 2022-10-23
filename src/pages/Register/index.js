@@ -30,21 +30,18 @@ const Register = () => {
               <Link to={"/"} className="btn button-register shadow btn-lg ms-1 mt-3">
                 Register
               </Link>
-<<<<<<< HEAD
               <footer className='mt-5'>
                 <p>
                 By signing up, you agree to Book's <br />
               <strong>Terms and Conditions</strong> & <strong>Privacy Policy</strong>
                 </p>
             </footer>
-=======
           <footer className='mt-5'>
           <p>
         By signing up, you agree to Book's <br />
         <strong>Terms and Conditions</strong> & <strong>Privacy Policy</strong>
        </p>
     </footer>
->>>>>>> 1618a7faaa23c01cf22d8efd388e55ac5fe09b3a
       </form>
       </Auth>
 }
